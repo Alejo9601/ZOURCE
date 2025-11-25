@@ -23,7 +23,7 @@ export default function Hero() {
       >
          {/* Imagen de fondo con blur */}
          <div
-            className="absolute inset-0 bg-cover bg-center blur-[1px] brightness-75"
+            className="absolute inset-0 bg-cover bg-center blur-[1px] brightness-50"
             style={{ backgroundImage: `url(${heroImage})` }}
          ></div>
 
