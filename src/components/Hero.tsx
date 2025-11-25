@@ -34,9 +34,9 @@ export default function Hero() {
             <div className="grid my-0 md:my-2 lg:my-5 md:grid-cols-2 gap-12 items-center">
                {/* --- TU CONTENIDO ORIGINAL --- */}
                <div className="space-y-6 animate-fadeIn">
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                  <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-white leading-none">
                      Servicios Informáticos
-                     <span className="block text-blue-300 mt-2 leading-none">
+                     <span className="text-3xl md:text-5xl lg:text-6xl block text-blue-200 mt-2 leading-none">
                         para toda la cuenca carbonífera
                      </span>
                   </h1>
