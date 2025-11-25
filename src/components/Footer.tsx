@@ -9,11 +9,11 @@ export default function Footer() {
    };
 
    return (
-      <footer className="bg-gray-900 text-white">
+      <footer className="bg-gray-900 text-white text-center md:text-left">
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="grid md:grid-cols-4 gap-8">
                <div className="space-y-4">
-                  <div className="flex items-center space-x-2">
+                  <div className="flex justify-center md:justify-start space-x-2">
                      <Cpu className="h-8 w-8 text-blue-500" />
                      <span className="text-xl font-bold">ZOURCE</span>
                   </div>
@@ -86,7 +86,7 @@ export default function Footer() {
 
                <div>
                   <h3 className="text-lg font-semibold mb-4">Síguenos</h3>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 justify-center md:justify-start">
                      <a
                         href="https://wa.me/542902484800"
                         target="_blank"
