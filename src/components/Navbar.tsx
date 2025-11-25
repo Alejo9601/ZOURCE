@@ -27,7 +27,7 @@ export default function Navbar() {
                   className="flex items-center space-x-2 cursor-pointer"
                   onClick={() => scrollToSection("inicio")}
                >
-                  {/* <Cpu className="h-8 w-8 text-blue-600" /> */}
+                  <Cpu className="h-9 w-9 text-black" />
                   <span className="text-3xl font-bold text-gray-800">
                      ZOURCE
                   </span>
